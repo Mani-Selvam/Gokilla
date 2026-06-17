@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal portfolio website showcasing web development projects and skills" />
+    <meta name="keywords" content="web developer, portfolio, projects, frontend, backend, javascript, html, css" />
+    <meta name="author" content="Gokila Devi" />
+    <title>Gokila Devi - Web Developer Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#resume" class="nav-link">Resume</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">Hi, I'm Gokila Devi</h1>
+                <h2 class="hero-subtitle">Full-Stack Web Developer</h2>
+                <p class="hero-description">
+                    I create beautiful, responsive websites and web
+                    applications that deliver exceptional user experiences.
+                    Passionate about clean code, modern technologies, and
+                    solving complex problems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Gokiladevi2026" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gokiladevi-s-702700363" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="mailto:gokilakumar595@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-image fade-in-left">
+                    <img src="assets/gok 1.png" alt="Profile Photo" class="profile-photo hover-glow float-animation" />
+                </div>
+                <div class="about-text fade-in-right">
+                    <h3>Hello! I'm a passionate web developer</h3>
+                    <p>
+                        Hi, I’m Gokila Devi — I build reliable and
+                        efficient applications using Java. I enjoy
+                        solving problems through clean code and
+                        developing backend systems that are stable
+                        and scalable
+                    </p>
+                    <p>
+                        I enjoy working with the latest technologies and
+                        frameworks, always staying up-to-date with industry
+                        trends and best practices. When I'm not coding, you
+                        can find me contributing to open-source projects,
+                        learning new technologies, or sharing knowledge with
+                        the developer community.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Skills & Technologies</h2>
+            <div class="skills-content">
+                <div class="skills-intro fade-in">
+                    <h3>Technical Expertise</h3>
+                    <p>
+                        I have experience working with a wide range of
+                        modern technologies and frameworks. From frontend
+                        development to backend systems, I'm passionate about
+                        using the right tools to build exceptional digital
+                        experiences.
+                    </p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category fade-in-left">
+                        <h4><i class="fas fa-code"></i> Frontend</h4>
+                        <div class="skill-items">
+                            <div class="skill-item scale-in hover-bounce">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item scale-in hover-bounce">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item scale-in hover-bounce">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item scale-in hover-bounce">
+                                <i class="fas fa-server"></i>
+                                <span>ASP.NET</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category fade-in">
+                        <h4><i class="fas fa-server"></i> Backend</h4>
+                        <div class="skill-items">
+                            <div class="skill-item scale-in hover-bounce">
+                                <i class="fas fa-coffee"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-item scale-in hover-bounce">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item scale-in hover-bounce">
+                                <i class="fas fa-database"></i>
+                                <span>Sql</span>
+                            </div>
+                            <div class="skill-item scale-in hover-bounce">
+                                <i class="fas fa-code"></i>
+                                <span>C#</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category fade-in-right">
+                        <h4><i class="fas fa-tools"></i> Tools & Others</h4>
+                        <div class="skill-items">
+                            <div class="skill-item scale-in hover-bounce">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                                    alt="VS Code" width="20" height="20">
+                                <span>VS Code</span>
+                            </div>
+                            <div class="skill-item scale-in hover-bounce">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-item scale-in hover-bounce">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg"
+                                    alt="Netlify" width="40" height="30">
+                                <span>Netlify</span>
+                            </div>
+                            <div class="skill-item scale-in hover-bounce">
+                                <img src="assets/Chatgpt.png" alt="ChatGPT" width="40" height="30">
+                                <span>ChatGPT</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+
+                        <img src="assets/Project1.png" width="200" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3>Web-Based Immunity Process</h3>
+                        <p>
+                            Developed a web-based application for
+                            managing and tracking immunity-related
+                            data using ASP.NET with C# and SQL Server.
+                            The system was built on Windows 7/10
+                            using Visual Studio 2012, with a focus on
+                            efficient data handling and secure user
+                            access
+                        </p>
+                        <div class="project-tech">
+                            <span>ASP.NET</span>
+                            <span>C#</span>
+                            <span>SQL</span>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="resume-content fade-in">
+                <h2 class="section-title">Resume</h2>
+                <p class="resume-description">
+                    Download my resume to learn more about my experience,
+                    education, and technical skills.
+                </p>
+                <a href="assets/resume.pdf" download="Gokila_Devi_Resume.pdf"
+                    class="btn btn-primary resume-btn hover-glow pulse-animation">
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info fade-in-left">
+                    <h3>Let's work together!</h3>
+                    <p>
+                        I'm always interested in new opportunities and
+                        exciting projects. Whether you have a question or
+                        just want to say hi, feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item scale-in hover-scale">
+                            <i class="fas fa-envelope"></i>
+                            <span>gokilakumar595@gmail.com</span>
+                        </div>
+                        <div class="contact-item scale-in hover-scale">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9360001676</span>
+                        </div>
+                        <div class="contact-item scale-in hover-scale">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>India,TamilNadu,virudhunagar</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form fade-in-right hover-lift" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required />
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required />
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loader" style="display: none">
+                            <i class="fas fa-spinner fa-spin"></i>
+                        </span>
+                    </button>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+                <section id="thankyou" style="display: none;">
+                    <h2>Thank you!</h2>
+                    <p>Your message has been prepared in your email app. Please send it manually.</p>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Gokila Devi. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/Gokilladevi2026" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/gokiladevi-s-702700363" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
